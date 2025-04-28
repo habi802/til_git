@@ -225,4 +225,8 @@ git branch -v
 git merge 합쳐주고자 하는 브랜치명
 ```
 
+### 4.8. Git 브랜치 충돌 해결해 보기
+
+- Git 브랜치를 merge 하면 발생합니다.
+
 # GitHub
