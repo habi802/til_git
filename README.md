@@ -110,4 +110,10 @@ git add .
 git commit -m "Git 작업 관련 설명 글 작성"
 ```
 
+- 여러 줄 메모 작성하기 (제목, 상세내용)
+
+```bash
+git commit
+```
+
 # GitHub
