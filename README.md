@@ -313,3 +313,11 @@ git remote add 원격이름 https주소
 ```bash
 git remote rename 옛이름 새이름
 ```
+
+### 4.5. 추천 작업 순서
+
+```bash
+git add .
+git commit -m "[docs]: Git 학습"
+git push origin main
+```
