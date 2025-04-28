@@ -321,3 +321,9 @@ git add .
 git commit -m "[docs]: Git 학습"
 git push origin main
 ```
+
+## 5. GitHub 의 소스를 다운로드 받아서 작업하는 법
+
+- GitHub 주소를 주의하셔야 합니다.
+- 코드 소스 기준은 `https` 로 진행 중입니다.
+- 코드 소스 기준이 `ssh` 면 인증을 다시 처리하는 과정 필요.
