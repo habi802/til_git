@@ -368,6 +368,7 @@ git push origin 브랜치명
 ```
 
 서울에서 작업 완료하여랑...
+
 ### 5.4. git push 이후 작업
 
 - jeju 폴더는 clone 을 하여 진행함.
@@ -398,3 +399,27 @@ git switch --track -c 생성브랜치명 원격브랜치명
 ```
 
 - 예) `git switch --track -c jeju remotes/origin/jeju`
+
+## 6. GitHub 브랜치 삭제하기
+
+```bash
+git fetch --all
+```
+
+- 로컬 및 GitHub 브랜치 목록 모두 보기
+
+```bash
+git branch -a
+```
+
+- GitHub의 브랜치 삭제하기
+
+```bash
+git push origin --delete 브랜치명
+```
+
+- 예) `git push origin --delete jeju`
+
+## 7. 가능하면 브랜치는 삭제하지 않기를 권장합니다.
+
+## 8. 가능하면 commit 의 내용은 삭제, 수정하지 않기를 권장합니다.
